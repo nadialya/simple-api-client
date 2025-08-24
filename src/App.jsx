@@ -34,7 +34,7 @@ function App() {
       }
       // Add user
       setForm({ name: "", email: "" });
-
+      // update user feature
       fetchUsers();
     } catch (err) {
       console.error(err);
