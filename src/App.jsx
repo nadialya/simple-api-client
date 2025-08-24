@@ -32,7 +32,9 @@ function App() {
       } else {
         await axios.post(API_URL, form);
       }
+      // Add user
       setForm({ name: "", email: "" });
+
       fetchUsers();
     } catch (err) {
       console.error(err);
